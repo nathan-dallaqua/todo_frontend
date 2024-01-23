@@ -1,0 +1,9 @@
+<!-- todo-list.component.html -->
+<div>
+  <h2>Lista de Tarefas</h2>
+  <ul>
+    <li *ngFor="let todo of todoList">
+      {{ todo.title }} - {{ todo.completed ? 'Concluída' : 'Pendente' }}
+    </li>
+  </ul>
+</div>

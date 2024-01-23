@@ -1,0 +1,31 @@
+{
+  "editor.fontSize": 12.2,
+  "editor.tabSize": 5,
+  "editor.lineHeight": 1.7,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "JetBrains Mono Light",
+  "workbench.colorTheme": "Sweet Dracula",
+  "editor.fastScrollSensitivity": 5,
+  "editor.mouseWheelScrollSensitivity": 3,
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": true,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorStyleInactive": "underline",
+  "editor.letterSpacing": 0.1,
+  "apc.electron": {
+    "frame": false
+  },
+
+  "apc.listRow": {
+      "height": 23
+  },
+  "apc.stylesheet": {
+      ".title-label > h2": "display: none"
+  },
+  "gitblame.inlineMessageFormat": "${author.name}, ${time.ago}",
+
+
+}

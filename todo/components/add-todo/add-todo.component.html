@@ -1,0 +1,8 @@
+<!-- add-todo.component.html -->
+<div>
+  <h2>Adicionar Tarefa</h2>
+  <form (ngSubmit)="onSubmit()">
+    <input [(ngModel)]="newTodo" placeholder="Nova Tarefa" />
+    <button type="submit">Adicionar</button>
+  </form>
+</div>
